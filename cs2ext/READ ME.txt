@@ -1,10 +1,11 @@
 # README
 ## Setup
 
-1. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
-2. Place `offsets.rs` in this folder.
-3. If an `offsets.rs` file already exists, replace it with the latest version.
-4. Do not change `imgui.ini` unless you know what you are doing.
+1. If the download is marked as untrusted, choose Continue anyway.
+2. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
+3. Place `offsets.rs` in this folder.
+4. If an `offsets.rs` file already exists, replace it with the latest version.
+5. Do not change `imgui.ini` unless you know what you are doing.
 
 ## Notes
 
@@ -17,6 +18,7 @@
 Created by
 Git: aA0000000000
 
+FEATURES:
 -Chicken - (AABB) NOT WORKING.
 -PLAYER - (AABB) WORKING
 -AIMBOT - WORKING BUT NOT RECOMMENDED
@@ -24,3 +26,5 @@ Git: aA0000000000
 --LINES
 --HEALTH
 --BOX
+
+This was created for fun; use this only in a "local" or "offline" testing environment, never on "public" servers, and be aware that using it may risk your account and violate the game’s terms of service. Do as you wish.
