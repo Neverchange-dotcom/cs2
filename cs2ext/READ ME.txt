@@ -1,9 +1,15 @@
-READ ME:
+# README
+## Setup
+
 1. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
-2. Place the file in this folder.
-3. Replace the existing `offsets.rs` file if it is outdated.
+2. Place `offsets.rs` in this folder.
+3. If an `offsets.rs` file already exists, replace it with the latest version.
+4. Do not change `imgui.ini` unless you know what you are doing.
 
+## Notes
 
+- Make sure `offsets.rs` is current before running the project.
+- `imgui.ini` is included for configuration and should generally be left unchanged.
 
 
 
