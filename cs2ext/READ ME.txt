@@ -1,50 +1,35 @@
 README
-
 Setup
--If the download is marked as untrusted, choose Continue anyway.
 
--Download the latest offsets.rs Rust source file from CS2 Dumper.
+If the download is marked as untrusted, choose Continue anyway.
+Download the latest offsets.rs Rust source file from CS2 Dumper.
+Place offsets.rs in this folder.
+If an offsets.rs file already exists, replace it with the latest version.
+Do not change imgui.ini unless you know exactly what you are doing.
 
--Place offsets.rs in this folder.
+Safety Notes
 
--If an offsets.rs file already exists, replace it with the latest version.
-
--Do not change imgui.ini unless you know what you are doing.
-
-Notes & Precautions
--Update Offsets: Make sure offsets.rs is current before running the project. Outdated offsets will cause crashes or immediate anti-cheat flags.
--Config: imgui.ini is included for configuration and should generally be left unchanged.
-
--RECOMMENDED: DO NOT USE YOUR MAIN CS2 ACCOUNT. Create a disposable alternative account for any testing.
-
--Offline Mode Only: Always add -insecure to your CS2 Steam launch options before running this. This prevents the game from loading VAC modules and stops you from accidentally joining VAC-secured servers.
--Local Testing: Test strictly in local bot matches (e.g., type map de_dust2 in the developer console). Never attempt to use this in Premier, Competitive, or any live public environment.
+Keep offsets current: Make sure offsets.rs is up to date before running the project. Outdated offsets can cause crashes or trigger anti-cheat detection.
+Leave configuration alone: imgui.ini is included for configuration and should generally remain unchanged.
+Use a disposable account: Do not use your main CS2 account. Use a separate account for any testing.
+Run offline only: Always add -insecure to your CS2 Steam launch options before running this project. This helps prevent VAC modules from loading and reduces the risk of joining VAC-secured servers.
+Test locally only: Use this only in local bot matches, such as by entering map de_dust2 in the developer console. Never use it in Premier, Competitive, or any live public environment.
 
 Features
 
-Created by
+Chicken (AABB): not working
+Player (AABB): working
+Aimbot: working, but not recommended
+FOV circle
+Lines
+Health
+Box
+
+Created By
+
 Git: Neverchange-dotcom/Dot.Com
 
--Chicken - (AABB) NOT WORKING.
-
--PLAYER - (AABB) WORKING
-
--AIMBOT - WORKING BUT NOT RECOMMENDED
-
--FOV CIRCLE
-
--LINES
-
--HEALTH
-
--BOX
-
 Disclaimer and Limitation of Liability
-
-This software was created purely for fun, educational purposes, and local/offline programming research. It is never to be used on public servers or any live environment. Using this software will violate the game’s Terms of Service (ToS) and End User License Agreement (EULA).
-
-YOU USE THIS SOFTWARE AT YOUR OWN RISK.
-The creator(s) of this software provide it "AS IS" and assume zero liability for any bans, hardware bans, damages, or account penalties incurred by the user. If you are banned for using this, the responsibility is entirely your own.
-
-Legal Context:
-Under standard software licensing principles (such as the Uniform Commercial Code § 2-316), this software is provided without any express or implied warranties. While landmark cases like Lewis Galoob Toys, Inc. v. Nintendo of America, Inc. (1992) established precedents regarding consumers' rights to modify games for personal use, playing modern online games requires agreeing to a binding EULA. By choosing to run this software, you (the user) are electing to breach your contract with the game publisher. The developer of this tool is not a party to your agreement with the game publisher and cannot be held liable for the consequences of your breach of that contract.
+This software is provided for fun, educational purposes, and local offline programming research only. It must never be used on public servers or in any live environment. Using this software violates the game’s Terms of Service (ToS) and End User License Agreement (EULA).
+You use this software at your own risk. The creator(s) provide it as is and accept no liability for bans, hardware bans, damages, or account penalties incurred through use. If you are banned for using this software, responsibility rests entirely with you.
+Under standard software licensing principles, including the Uniform Commercial Code § 2-316, this software is provided without any express or implied warranties. While Lewis Galoob Toys, Inc. v. Nintendo of America, Inc. (1992) established certain consumer rights to modify games for personal use, modern online games require agreement to a binding EULA. By choosing to run this software, you are electing to breach your contract with the game publisher. The developer of this tool is not a party to that agreement and cannot be held liable for the consequences of that breach.
