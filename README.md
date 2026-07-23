@@ -1,1 +1,1 @@
-# cs2 external
+FULL READ ME IS IN FOLDER
