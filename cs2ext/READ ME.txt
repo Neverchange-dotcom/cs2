@@ -1,28 +1,24 @@
 README
 
 Setup
+-If the download is marked as untrusted, choose Continue anyway.
 
-If the download is marked as untrusted, choose Continue anyway.
+-Download the latest offsets.rs Rust source file from CS2 Dumper.
 
-Download the latest offsets.rs Rust source file from CS2 Dumper.
+-Place offsets.rs in this folder.
 
-Place offsets.rs in this folder.
+-If an offsets.rs file already exists, replace it with the latest version.
 
-If an offsets.rs file already exists, replace it with the latest version.
-
-Do not change imgui.ini unless you know what you are doing.
+-Do not change imgui.ini unless you know what you are doing.
 
 Notes & Precautions
+-Update Offsets: Make sure offsets.rs is current before running the project. Outdated offsets will cause crashes or immediate anti-cheat flags.
+-Config: imgui.ini is included for configuration and should generally be left unchanged.
 
-Update Offsets: Make sure offsets.rs is current before running the project. Outdated offsets will cause crashes or immediate anti-cheat flags.
+-RECOMMENDED: DO NOT USE YOUR MAIN CS2 ACCOUNT. Create a disposable alternative account for any testing.
 
-Config: imgui.ini is included for configuration and should generally be left unchanged.
-
-RECOMMENDED: DO NOT USE YOUR MAIN CS2 ACCOUNT. Create a disposable alternative account for any testing.
-
-Offline Mode Only: Always add -insecure to your CS2 Steam launch options before running this. This prevents the game from loading VAC modules and stops you from accidentally joining VAC-secured servers.
-
-Local Testing: Test strictly in local bot matches (e.g., type map de_dust2 in the developer console). Never attempt to use this in Premier, Competitive, or any live public environment.
+-Offline Mode Only: Always add -insecure to your CS2 Steam launch options before running this. This prevents the game from loading VAC modules and stops you from accidentally joining VAC-secured servers.
+-Local Testing: Test strictly in local bot matches (e.g., type map de_dust2 in the developer console). Never attempt to use this in Premier, Competitive, or any live public environment.
 
 Features
 
