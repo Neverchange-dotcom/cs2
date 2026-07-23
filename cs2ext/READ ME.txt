@@ -2,3 +2,12 @@ READ ME:
 1. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
 2. Place the file in this folder.
 3. Replace the existing `offsets.rs` file if it is outdated.
+
+
+
+
+
+
+
+Created by
+@oddshame
