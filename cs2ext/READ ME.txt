@@ -1,0 +1,1 @@
+READ ME:  Place "offsets" Rust Source File from CS2 Dumper. into this folder.
