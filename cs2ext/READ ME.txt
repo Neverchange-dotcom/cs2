@@ -1,1 +1,4 @@
-READ ME:  Place "offsets" Rust Source File from CS2 Dumper. into this folder.
+READ ME:
+1. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
+2. Place the file in this folder.
+3. Replace the existing `offsets.rs` file if it is outdated.
