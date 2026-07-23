@@ -11,7 +11,7 @@
 - Make sure `offsets.rs` is current before running the project.
 - `imgui.ini` is included for configuration and should generally be left unchanged.
 
-
+- RECOMMENDED: DO NOT USE MAIN CS2 ACC.
 
 
 
