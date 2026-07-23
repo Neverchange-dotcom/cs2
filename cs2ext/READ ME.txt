@@ -16,7 +16,7 @@
 
 
 Created by
-Git: aA0000000000
+Git: Neverchange-dotcom/Dot.Com
 
 FEATURES:
 -Chicken - (AABB) NOT WORKING.
