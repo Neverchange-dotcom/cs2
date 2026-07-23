@@ -1,32 +1,54 @@
-# README
-## Setup
+README
 
-1. If the download is marked as untrusted, choose Continue anyway.
-2. Download the latest `offsets.rs` Rust source file from CS2 Dumper.
-3. Place `offsets.rs` in this folder.
-4. If an `offsets.rs` file already exists, replace it with the latest version.
-5. Do not change `imgui.ini` unless you know what you are doing.
+Setup
 
-## Notes
+If the download is marked as untrusted, choose Continue anyway.
 
-- Make sure `offsets.rs` is current before running the project.
-- `imgui.ini` is included for configuration and should generally be left unchanged.
+Download the latest offsets.rs Rust source file from CS2 Dumper.
 
-- RECOMMENDED: DO NOT USE MAIN CS2 ACC.
+Place offsets.rs in this folder.
 
+If an offsets.rs file already exists, replace it with the latest version.
+
+Do not change imgui.ini unless you know what you are doing.
+
+Notes & Precautions
+
+Update Offsets: Make sure offsets.rs is current before running the project. Outdated offsets will cause crashes or immediate anti-cheat flags.
+
+Config: imgui.ini is included for configuration and should generally be left unchanged.
+
+RECOMMENDED: DO NOT USE YOUR MAIN CS2 ACCOUNT. Create a disposable alternative account for any testing.
+
+Offline Mode Only: Always add -insecure to your CS2 Steam launch options before running this. This prevents the game from loading VAC modules and stops you from accidentally joining VAC-secured servers.
+
+Local Testing: Test strictly in local bot matches (e.g., type map de_dust2 in the developer console). Never attempt to use this in Premier, Competitive, or any live public environment.
+
+Features
 
 Created by
 Git: Neverchange-dotcom/Dot.Com
 
-FEATURES:
 -Chicken - (AABB) NOT WORKING.
--PLAYER - (AABB) WORKING
--AIMBOT - WORKING BUT NOT RECOMMENDED
---FOV CIRCLE
---LINES
---HEALTH
---BOX
 
-This was created for fun; use this only in a "local" or "offline" testing environment, never on "public" servers, and be aware that using it may risk your account and violate the game’s terms of service. Do as you wish.
- 
- 
+-PLAYER - (AABB) WORKING
+
+-AIMBOT - WORKING BUT NOT RECOMMENDED
+
+-FOV CIRCLE
+
+-LINES
+
+-HEALTH
+
+-BOX
+
+Disclaimer and Limitation of Liability
+
+This software was created purely for fun, educational purposes, and local/offline programming research. It is never to be used on public servers or any live environment. Using this software will violate the game’s Terms of Service (ToS) and End User License Agreement (EULA).
+
+YOU USE THIS SOFTWARE AT YOUR OWN RISK.
+The creator(s) of this software provide it "AS IS" and assume zero liability for any bans, hardware bans, damages, or account penalties incurred by the user. If you are banned for using this, the responsibility is entirely your own.
+
+Legal Context:
+Under standard software licensing principles (such as the Uniform Commercial Code § 2-316), this software is provided without any express or implied warranties. While landmark cases like Lewis Galoob Toys, Inc. v. Nintendo of America, Inc. (1992) established precedents regarding consumers' rights to modify games for personal use, playing modern online games requires agreeing to a binding EULA. By choosing to run this software, you (the user) are electing to breach your contract with the game publisher. The developer of this tool is not a party to your agreement with the game publisher and cannot be held liable for the consequences of your breach of that contract.
