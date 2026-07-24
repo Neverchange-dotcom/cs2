@@ -7,6 +7,8 @@ Place offsets.rs in this folder.
 If an offsets.rs file already exists, replace it with the latest version.
 Do not change imgui.ini unless you know exactly what you are doing.
 
+THE ESP WILL NOT DISPLAY IF THE OFFSETS ARE NOT UPDATED.
+
 Safety Notes
 
 Keep offsets current: Make sure offsets.rs is up to date before running the project. Outdated offsets can cause crashes or trigger anti-cheat detection.
